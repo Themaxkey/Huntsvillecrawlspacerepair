@@ -1,0 +1,47 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hsv-crawl-space",
+  "main": "src/server/worker.ts",
+  "compatibility_date": "2026-08-01",
+
+  // Non-secret runtime values for the contact form and voicemail notifications.
+  //
+  // These MUST be declared here, not only in the Cloudflare dashboard. Every
+  // push runs `wrangler deploy`, which replaces the Worker's plain-text vars
+  // with whatever this file declares — so a variable added only in the
+  // dashboard is silently wiped by the next build.
+  //
+  // RESEND_KEY is the exception: it is a dashboard secret, survives every
+  // deploy, and must never be committed.
+  //
+  // LEAD_TO is set to the owner's inbox for now. Once an operator is signed,
+  // change it to route leads straight to them.
+  "vars": {
+    "LEAD_TO": "maxwellhkey@gmail.com",
+
+    // SENDING DOMAIN DEPENDENCY — this address will only work once
+    // huntsvillecrawlspacerepair.com is verified in Resend. The free tier
+    // covers ONE domain, so this site requires the paid plan; until the domain
+    // is verified Resend rejects the send, the worker returns 502, and both
+    // the contact form and every voicemail notification fail silently.
+    //
+    // If the Resend upgrade has not happened yet, temporarily set this to the
+    // already-verified sender used by the other sites and change it back once
+    // this domain is verified. Do not leave it pointing at another domain
+    // permanently — a lead email that appears to come from a different
+    // business is confusing to file and impossible to filter.
+    "LEAD_FROM": "Huntsville Crawl Space Repair <leads@huntsvillecrawlspacerepair.com>",
+    "VOICEMAIL_TOKEN": "jcAGHltHjB36EDj54Oi62SxtkvTjbI4OhZg1xnL9"
+  },
+
+  // Astro builds static HTML into ./dist. Cloudflare serves those files
+  // directly from its edge — static asset requests are free and unlimited.
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+
+  "observability": { "enabled": true }
+}
