@@ -1,6 +1,11 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "hsv-crawl-space",
+  // MUST match the Worker's name in the Cloudflare dashboard exactly. Workers
+  // Builds happens to deploy to the connected Worker regardless of what this
+  // says, which is why a mismatch here went unnoticed — but a `wrangler deploy`
+  // run from a laptop obeys this field and would silently create a SECOND,
+  // separate Worker with no custom domain attached.
+  "name": "huntsvillecrawlspacerepair",
   "main": "src/server/worker.ts",
   "compatibility_date": "2026-08-01",
 
@@ -19,17 +24,14 @@
   "vars": {
     "LEAD_TO": "maxwellhkey@gmail.com",
 
-    // SENDING DOMAIN DEPENDENCY — this address will only work once
-    // huntsvillecrawlspacerepair.com is verified in Resend. The free tier
-    // covers ONE domain, so this site requires the paid plan; until the domain
-    // is verified Resend rejects the send, the worker returns 502, and both
-    // the contact form and every voicemail notification fail silently.
+    // Sends from its own domain, verified in Resend.
     //
-    // If the Resend upgrade has not happened yet, temporarily set this to the
-    // already-verified sender used by the other sites and change it back once
-    // this domain is verified. Do not leave it pointing at another domain
-    // permanently — a lead email that appears to come from a different
-    // business is confusing to file and impossible to filter.
+    // An earlier version of this comment claimed the Resend free tier covers
+    // only ONE sending domain and that this site therefore needed a paid plan.
+    // That was wrong. Resend's own pricing docs state no domain limit, and this
+    // account has three domains verified on the free plan. The real free-tier
+    // constraint is volume — 3,000 emails a month and 100 a day, shared across
+    // every domain on the account.
     "LEAD_FROM": "Huntsville Crawl Space Repair <leads@huntsvillecrawlspacerepair.com>",
     "VOICEMAIL_TOKEN": "jcAGHltHjB36EDj54Oi62SxtkvTjbI4OhZg1xnL9"
   },

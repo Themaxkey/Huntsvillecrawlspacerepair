@@ -1,6 +1,6 @@
 ---
 title: "Do I have a sinkhole problem in Huntsville?"
-seoTitle: "Sinkholes and Foundation Damage in Huntsville, AL | Honest Answer"
+seoTitle: "Sinkholes and Foundation Damage in Huntsville, AL | The Truth"
 description: "North Alabama is limestone country, so sinkholes are real. Whether yours is one is a different question. How to tell, without the scaremongering."
 question: "Do I have a sinkhole problem in Huntsville?"
 ---
