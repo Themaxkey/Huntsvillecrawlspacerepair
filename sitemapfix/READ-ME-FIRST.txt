@@ -1,0 +1,38 @@
+SITEMAP FIX — Birmingham and Huntsville only
+22 Aug 2026
+
+ONE FILE PER SITE. Replace astro.config.mjs in each repo root.
+
+  sitemapfix/bham-foundation-repair/astro.config.mjs  ->  repo root of bhamfoundationrepair
+  sitemapfix/hsv-crawl-space/astro.config.mjs         ->  repo root of Huntsvillecrawlspacerepair
+
+Bowling Green is NOT affected. Do not copy either file into it.
+
+WHAT WAS WRONG
+--------------
+On both sites, /privacy-policy/ and /sms-terms-and-conditions/ carry
+noindex: true in their frontmatter, and both were still being listed in
+sitemap.xml. That is a contradiction: the sitemap tells Google "crawl
+this", the meta tag tells it "do not index this". Search Console reports
+it as "Submitted URL marked noindex" and counts it as an error on the
+property, which is the kind of thing that muddies a brand new property's
+coverage report right when you want it clean.
+
+Bowling Green does not have the problem because its privacy and SMS
+pages are not noindexed at all — and its privacy policy is written from
+scratch rather than shared with the other two, so there is nothing to
+hide. I checked: Birmingham and Huntsville's privacy policies are 74%
+identical to each other, Bowling Green's is 4%. Leaving the Alabama pair
+noindexed is the right call; the sitemap just needed to agree.
+
+THE CHANGE
+----------
+A filter on the sitemap integration excluding those two paths. Nothing
+else in the file moved. If you ever set noindex on another page, add it
+to that filter list too — the comment in the file says so.
+
+I could not build either site here to prove it compiles; the npm
+registry is still blocking @astrojs/sitemap from this machine. It is a
+plain object property on an integration that is already in use, so the
+risk is low, but watch the Cloudflare build go green before you close
+the tab.
