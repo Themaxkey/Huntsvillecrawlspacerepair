@@ -13,7 +13,7 @@ This part of the county is limestone country with a long history of springs. Whe
 
 A crawl space fed by a seep behaves differently from one fed by runoff. It stays wet in dry weather, it does not respond much to downspout corrections, and it needs drainage designed to carry a continuous small flow rather than an occasional large one.
 
-Identifying which you have is the whole job. It is also why we would rather look at a New Market property after a dry fortnight than after a storm — persistent water in dry conditions tells you something runoff never would.
+Identifying which you have is the whole job. It is also why we would rather look at a New Market property after two dry weeks than after a storm — persistent water in dry conditions tells you something runoff never would.
 
 ## The Housing
 

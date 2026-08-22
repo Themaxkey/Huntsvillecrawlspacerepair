@@ -42,4 +42,4 @@ Inspections are free and there is no obligation.
 
 Monday to Friday, 7:00 AM to 6:00 PM. Saturday, 8:00 AM to 2:00 PM.
 
-If you ring outside those hours, leave a message — it reaches us by email straight away and we will call you back.
+If you call outside those hours, leave a message — it reaches us by email right away and we will call you back.
