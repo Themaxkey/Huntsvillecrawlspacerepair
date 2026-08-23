@@ -2,6 +2,8 @@
 title: "Crawl Space Encapsulation in Huntsville, AL"
 seoTitle: "Crawl Space Encapsulation Huntsville, AL | Sealed & Dry"
 description: "Crawl space encapsulation in Huntsville, AL. Heavy liner, sealed vents and dehumidification to stop damp, mold and cold floors. Call (256) 270-0146."
+hero: "crawl-space-encapsulation-sealed-seams-huntsville-al.jpg"
+heroAlt: "Liner fastened to the foundation wall with wrapped piers and taped seams in an encapsulated Huntsville crawl space"
 order: 2
 ---
 
