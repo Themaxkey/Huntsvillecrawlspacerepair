@@ -2,6 +2,8 @@
 title: "Areas We Serve Around Huntsville"
 seoTitle: "Service Area | Crawl Space Repair Huntsville, AL"
 description: "Crawl space and foundation services across Huntsville, Madison, Decatur, Athens and the wider Tennessee Valley. Call (256) 270-0146."
+hero: "huntsville-al-brick-ranch-crawl-space-vents.jpg"
+heroAlt: "Brick ranch home with crawl space foundation vents in Huntsville, Alabama"
 ---
 
 We cover Huntsville and roughly forty miles around it — Madison County, the northern edge of Morgan County, and into Limestone County.

@@ -2,6 +2,8 @@
 title: "About Huntsville Crawl Space Repair"
 seoTitle: "About Us | Huntsville Crawl Space Repair, AL"
 description: "Who we are, how we work, and how requests made through this site reach local licensed crawl space and foundation contractors in Huntsville, AL."
+hero: "huntsville-al-brick-ranch-crawl-space-vents.jpg"
+heroAlt: "Brick ranch home with crawl space foundation vents in Huntsville, Alabama"
 ---
 
 ## How This Site Works

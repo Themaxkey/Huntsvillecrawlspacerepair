@@ -2,6 +2,8 @@
 title: "Huntsville Crawl Space Repair"
 seoTitle: "Crawl Space Repair Huntsville, AL | Free Inspection"
 description: "Crawl space repair, encapsulation and waterproofing in Huntsville, AL and Madison County. Damp, mold, sagging floors. Free inspection. Call (256) 270-0146."
+hero: "crawl-space-encapsulation-huntsville-al.jpg"
+heroAlt: "Encapsulated crawl space with a sealed white vapor barrier and dehumidifier under a Huntsville home"
 tagline: "Damp crawl spaces, sagging floors, mold on the joists and cold rooms above — sorted properly, across Huntsville and the Tennessee Valley."
 ---
 
