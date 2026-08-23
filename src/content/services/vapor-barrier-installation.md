@@ -2,6 +2,8 @@
 title: "Vapor Barrier Installation in Huntsville, AL"
 seoTitle: "Vapor Barrier Installation Huntsville, AL | Crawl Space Liner"
 description: "Crawl space vapor barrier installation in Huntsville, AL. Proper thickness, sealed seams and wall termination. Call (256) 270-0146."
+hero: "vapor-barrier-installation-huntsville-al.jpg"
+heroAlt: "Vapor barrier being rolled out over bare soil in a Huntsville crawl space"
 order: 7
 ---
 

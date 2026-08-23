@@ -2,6 +2,8 @@
 title: "Crawl Space Mold Removal in Huntsville, AL"
 seoTitle: "Crawl Space Mold Removal Huntsville, AL | Treat the Cause"
 description: "Crawl space mold removal in Huntsville, AL. Treatment, removal and the moisture fix that stops it returning. Call (256) 270-0146."
+hero: "crawl-space-mold-removal-huntsville-al.jpg"
+heroAlt: "Mold growth on floor joists in a damp crawl space in Huntsville, Alabama"
 order: 6
 ---
 

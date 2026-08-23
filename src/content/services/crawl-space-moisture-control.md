@@ -2,6 +2,8 @@
 title: "Crawl Space Moisture Control in Huntsville, AL"
 seoTitle: "Crawl Space Moisture Control Huntsville, AL | Dehumidification"
 description: "Crawl space moisture control in Huntsville, AL. Humidity monitoring, dehumidification and vapor barriers to keep wood below rot threshold. Call (256) 270-0146."
+hero: "crawl-space-dehumidifier-huntsville-al.jpg"
+heroAlt: "Dehumidifier controlling humidity in a sealed crawl space in Huntsville, Alabama"
 order: 4
 ---
 

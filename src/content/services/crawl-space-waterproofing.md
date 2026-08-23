@@ -2,6 +2,8 @@
 title: "Crawl Space Waterproofing in Huntsville, AL"
 seoTitle: "Crawl Space Waterproofing Huntsville, AL | Stop the Water"
 description: "Crawl space waterproofing in Huntsville, AL. Interior drainage, sump pumps and grading to stop standing water under your house. Call (256) 270-0146."
+hero: "crawl-space-waterproofing-drain-sump-huntsville-al.jpg"
+heroAlt: "Perimeter drain and sump basin installed in a crawl space in Huntsville, Alabama"
 order: 3
 ---
 

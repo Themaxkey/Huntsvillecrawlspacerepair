@@ -2,6 +2,8 @@
 title: "Crawl Space Repair in Huntsville, AL"
 seoTitle: "Crawl Space Repair in Huntsville, AL | Rotten Joists & Damp"
 description: "Crawl space repair in Huntsville, AL. Rotten joists, failed supports, standing water and sagging floors put right. Free inspection. Call (256) 270-0146."
+hero: "crawl-space-repair-support-jack-huntsville-al.jpg"
+heroAlt: "New steel support jack and girder replacing a rotted post beneath a Huntsville home"
 order: 1
 ---
 
